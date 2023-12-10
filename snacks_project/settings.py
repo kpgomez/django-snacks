@@ -68,7 +68,11 @@ TEMPLATES = [
     },
 ]
 
-print(TEMPLATES)
+"""
+'DIRS': [PosixPath('/Users/dariogomez/projects/courses/code-401/labs/django-snacks/templates')]
+Path(__file__).resolve().parent.parent
+"""
+
 
 WSGI_APPLICATION = "snacks_project.wsgi.application"
 
