@@ -3,6 +3,7 @@
 
 {%  block content %}
     <h1>Home Page</h1>
+    <h1 class="text-3xl text-green-800">Django + Tailwind + Flowbite</h1>
     {%  for snack in snacks %} <!-- snacks matches the context object in snacks/views.py-->
         <h2>Name: {{ snack.title}}</h2>>
         <p>Description: {{ snack.description }}</p>>

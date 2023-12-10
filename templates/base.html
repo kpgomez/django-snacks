@@ -1,6 +1,9 @@
 <!-- ancestor template that holds all the common and reusable markup that other template files
 are going to use as a base -->
 
+{% load compress %}
+{%  load static %}
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,6 +12,10 @@ are going to use as a base -->
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    {%  compress css %}
+        <link rel="stylesheet" href="{% static 'src/output.css' %}">
+    {%  endcompress %}
 </head>
 <body>
     <header>
@@ -22,8 +29,7 @@ are going to use as a base -->
         {%  endblock content %}
     </main>
     <footer>
-
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
 </body>
 </html>
