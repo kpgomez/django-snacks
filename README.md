@@ -1,22 +1,23 @@
 # LAB - Class 26
 ## Project: Intro to Django
-### <span style="color: gray"> Author: KP Gomez
-### <span style="color: gray">Links and Resources
-- <a>back-end server url</a> (when applicable)
-- <a>front-end application</a> (when applicable)
-### <span style="color: gray">Setup
-#### <span style="color: gray">`.env` requirements (where applicable)
+### <span style="color: gray"> Author: KP Gomez</span>
+### <span style="color: gray">Links and Resources</span>
+- [Class Demo](https://github.com/codefellows/seattle-code-python-401n8/tree/main/class-26/in-class-demo)
+- [Getting Started with Flowbite](https://flowbite.com/docs/getting-started/django/)
+- [Getting Started with Django](https://www.djangoproject.com/start/)
+- [Getting Started with TailwindCSS](https://tailwindcss.com/docs/installation)
+- [Snack images](https://www.wikimedia.org/)
+### <span style="color: gray">Setup</span>
+#### <span style="color: gray">`.env` requirements (where applicable)</span>
 
 i.e.
 
-- `PORT` - Port Number
-- `DATABASE_URL` - URL to the running Postgres instance/db
+- `PORT` - 8000
 
-#### <span style="color: gray">How to initialize/run your application (where applicable)
-- e.g. `python main.py`
 
-#### <span style="color: gray">How to use your library (where applicable)
-#### <span style="color: gray">Tests
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+#### <span style="color: gray">How to initialize/run your application</span>
+- `python manage.py runserver`
+
+
+#### <span style="color: gray">How do you run tests?</span>
+- `python manage.py test`
